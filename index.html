@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-AU-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="css/main.css">
 	<!-- bs -->
 	<link rel="stylesheet" href="css/bootstrap/3.1 bootstrap.css.css">
 	<!-- icon -->
@@ -14,6 +15,44 @@
 	<link rel="shortcut icon" href="img/favicon/favicon.ico">
 </head>
 	<body>
+	<!-- loading -->
+	<div id="preloader">
+		<div id="status">&nbsp;</div>
+	</div>
+
+	<section class="home">
+		<!-- video bg -->
+		<video class="home-bg-video" poster="video/solo.jpg" loop autoplay muted>
+			<source src="video/solo.mp4" type="video/mp4">
+			<source src="video/solo.ogv" type="video/ogg">
+			<source src="video/solo.webm" type="video/webm">
+		</video>
+		<!-- overlay -->
+		<div class="home-overlay"></div>
+		<!-- home content -->
+		<div id="home-content" class="text-center">
+			<div id="home-inner">
+				<div id="home-heading">
+					<h1 id="home-heading1">Digital</h1><br>
+					<h1 id="home-heading2">Creative <span>Agency</span></h1>
+				</div>
+				<div id="home-text">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni molestiae eligendi ut. Esse ipsam debitis illo omnis officia qui molestias.
+					</p>
+				</div>
+				<div id="home-btn">
+					<a href="#about" class="btn btn-general btn-home">Start Now</a>
+				</div>
+			</div>
+		</div>
+		<!-- Arrow Down -->
+		<div id="arrow-down">
+			<a href="#about">
+				<i class="fa fa-angle-down"></i>
+			</a>
+		</div>
+	</section>
 
 	<!-- js -->
 		<script src="js/5.1 jquery.js.js"></script>
