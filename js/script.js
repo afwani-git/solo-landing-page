@@ -16,3 +16,16 @@ $(function(){
 		navText:['<i class=" ico fa fa-angle-left"></i>','<i class=" ico fa fa-angle-right"></i">']
 	});
 })
+// progress Bar
+$(function(){
+	$("#progress-element").waypoint(function(){
+		$(".progress-bar").each(function() {
+			$(this).animate({
+				width: $(this).attr("aria-valuenow")+'%'
+			},1000);
+		});
+		$(this).destroy();
+	},{
+		offset:'bottom-in-view'
+	});
+})

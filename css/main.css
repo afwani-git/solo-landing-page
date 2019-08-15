@@ -354,3 +354,43 @@ members
 .owl-theme .owl-nav [class*=owl-]:hover .ico{
 	color: #f4c613;
 }
+/*
+/////////////
+members (skill)
+/////////////
+*/
+.skill{
+	margin-bottom:20px;
+}
+.skill h4{
+	line-height: 42px;
+	font-weight: normal;
+	margin: 0;
+}
+.progress{
+	border: none;
+	border-radius: 0;
+		overflow: visible;
+}
+.progress-bar{
+	position: relative;
+	background:#f4c613;
+}
+.progress span{
+	position: absolute;
+	background:#212226;
+	display: inline-block;
+	top: -36px;
+	left: 97%;
+	padding:3px;
+	font-size: 10px;
+}
+.progress span::after{
+	content:"";
+	border-top: 6px solid #212226;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	position: absolute;
+	bottom: -6px;
+	left: 23%;
+}
