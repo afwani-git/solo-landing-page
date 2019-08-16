@@ -130,6 +130,9 @@ button
 	background:#f4c613;
 	color: whitesmoke!important;
 }
+.active{
+	background:white;
+}
 /*
 /////////////
 	panah

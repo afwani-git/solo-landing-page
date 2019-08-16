@@ -24,8 +24,24 @@ $(function(){
 				width: $(this).attr("aria-valuenow")+'%'
 			},1000);
 		});
-		$(this).destroy();
+		this.destroy();
 	},{
 		offset:'bottom-in-view'
 	});
 })
+
+$(function(){
+	$("#team-members").owlCarousel({
+		items:2,
+		autoplay:true,
+		loop:true,
+		smartSpeed:700,
+		autoplayHoverPause:true,
+		nav:true,
+		dots:false,
+		navText:['<i class=" ico fa fa-angle-left"></i>','<i class=" ico fa fa-angle-right"></i">']
+	});
+})
+// progress Bar
+
+$(".se").responsiveTabs({});
