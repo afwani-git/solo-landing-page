@@ -40,7 +40,7 @@ h3,
 h4,
 h5,
 h6{
-	font-family: sans-serif;
+	font-family: "Raleway",sans-serif;
 }
 p{
 	font-family: "Open Sans",sans-serif;
@@ -373,7 +373,7 @@ members (skill)
 .progress{
 	border: none;
 	border-radius: 0;
-		overflow: visible;
+	overflow: visible;
 }
 .progress-bar{
 	position: relative;
@@ -470,4 +470,82 @@ services
 }
 .services p{
 	line-height:  normal;
+}
+/*
+/////////////
+service
+/////////////
+*/
+.service-02{
+	background-color: #f4f4f4;
+}
+.se ul {
+	margin:20px!important;
+}
+.se ul li{
+	margin: 0 10px!important;
+}
+.se ul > li a{
+	color: #f4c613;
+	text-decoration: none;
+	padding:5px 30px;
+	background:white;
+	border-radius: 50px;
+	border:1px solid #f4c613; 
+}
+.se ul > li a:hover{
+	color: white;
+	background:#f4c613;
+}
+.se .r-tabs-nav .r-tabs-state-active .r-tabs-anchor{
+	color: white!important;
+	background:#f4c613!important;
+}
+[id*=service-tab-] .container{
+	background:#fff;
+	border:none;
+	box-shadow: 0 0 20px -10px rgba(0,0,0,.3);
+}
+[id*=service-tab-] .container .col-md-6:nth-child(1){
+	padding:0!important;
+	color: #f4c613!important;
+}	
+.btn-yellow{
+	background:white!important;
+	color: #f4c613;
+	border: 1px solid #f4c613;
+}
+.btn-yellow:hover{
+	background:#f4c613!important;
+	color: white;
+}
+.tab-bg{
+	padding:30px 30px 30px 0;
+}
+.tab-bg h2{
+	margin:0;
+	display: inline-block;
+}
+.tab-bg h3{
+	margin: 10px 0 20px 0;
+	font-weight: bold;
+}
+.tab-bg p{
+	line-height: normal;
+	font-size: 13px;
+	font-weight: 400;
+	margin-bottom: 50px;
+	color: rgba(0,0,0,.6);
+}
+
+/*
+/////////////
+portofolio
+/////////////
+*/
+#portofolio  .vertical-heading{
+	margin-bottom: 50px;
+}
+.row.no-gutter [class*=col-]{
+	padding:0!important;
 }

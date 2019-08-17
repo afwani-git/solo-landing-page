@@ -44,4 +44,6 @@ $(function(){
 })
 // progress Bar
 
-$(".se").responsiveTabs({});
+$(".se").responsiveTabs({
+	animation:'slide'
+});
