@@ -43,7 +43,27 @@ $(function(){
 	});
 })
 // progress Bar
-
 $(".se").responsiveTabs({
 	animation:'slide'
 });
+// isotope-filter
+$(window).on('load',function(){
+	$(".isotope-container").isotope({});
+	$('.isotope-filter').on('click','button',function(){
+		let val =  $(this).attr('data-filter');
+		$(".isotope-container").isotope({
+			filter:val
+		});
+		$(".isotope-filter").find(".activeMe").removeClass('activeMe');
+		$(this).addClass('activeMe');
+	});
+});
+$(function(){
+	$("#portofolio-warpper").magnificPopup({
+		delegate:'a',
+		type:'image',
+		gallery:{
+			enabled:true
+		}
+	})
+})

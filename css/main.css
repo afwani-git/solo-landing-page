@@ -520,11 +520,13 @@ service
 	color: white;
 }
 .tab-bg{
-	padding:30px 30px 30px 0;
+	padding:50px 30px 30px 0;
 }
 .tab-bg h2{
-	margin:0;
+	font-weight: 100;
+	color: rgba(0,0,0,.1);
 	display: inline-block;
+	font-size: 60px;
 }
 .tab-bg h3{
 	margin: 10px 0 20px 0;
@@ -549,3 +551,72 @@ portofolio
 .row.no-gutter [class*=col-]{
 	padding:0!important;
 }
+.activeMe{
+	border: 1px solid #f4c613;
+}
+.activeMe span{
+	color: #f4c613;
+	font-weight: 500;
+}
+.isotope-filter{
+	padding:20px 25px 20px 0;
+	margin:10px;
+}
+.isotope-filter button{
+	font-family: 'Raleway',sans-serif;
+	text-transform: uppercase;
+	background:transparent;
+	box-shadow: none;
+	outline: none;
+}
+.portofolio-intem{
+	overflow: hidden;
+}
+.portofolio-intem img{
+	width: 100%;
+	height: auto;
+	transition:transform 400ms  ease;
+	position: relative;
+	/*margin:0!impor;*/
+}
+.portofolio-intem:hover img{
+	transform:scale(1.1);
+}
+.portofolio-intem:hover .portfolio-overlay{
+	transform:scale(1);
+}
+.portfolio-overlay{
+	background-color: rgba(0,0,0,.5);
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: 600ms;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform:scale(0);
+}
+.portofolio-intem-detail{
+	color: #fff;
+	text-transform: capitalize;
+}
+.portofolio-intem-detail h3{
+	font-size: 27px;
+	color: #f4c613;
+	font-weight: 700;
+}
+.portofolio-intem-detail span{
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	width: 30px;height:8px;
+	display: inline-block;
+}
+.portofolio-intem-detail p{
+	font-weight: bolder;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
