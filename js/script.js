@@ -85,3 +85,14 @@ $(function(){
 		navText:['<i class=" ico fa fa-angle-left"></i>','<i class=" ico fa fa-angle-right"></i">']
 	});
 })
+$(function(){
+	$(window).scroll(function(){
+		if($(window).scrollTop()>57){
+			$("nav").addClass('white-nav-top');
+			$(".navbar-brand img").attr("src","img/logo/logo-dark.png");
+		}else{
+			$("nav").removeClass('white-nav-top');
+			$(".navbar-brand img").attr("src","img/logo/logo.png");
+		}
+	});
+});
