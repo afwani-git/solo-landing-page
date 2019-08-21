@@ -11,7 +11,15 @@ $(function(){
 		autoplayHoverPause:true,
 		nav:true,
 		dots:false,
-		navText:['<i class=" ico fa fa-angle-left"></i>','<i class=" ico fa fa-angle-right"></i">']
+		navText:['<i class=" ico fa fa-angle-left"></i>','<i class=" ico fa fa-angle-right"></i">'],
+		responsive:{
+			0:{
+				items:1
+			},
+			480:{
+				items:2
+			}
+		}
 	});
 })
 $(function(){
@@ -86,13 +94,21 @@ $(function(){
 	});
 })
 $(function(){
+	Scroll();
+
 	$(window).scroll(function(){
-		if($(window).scrollTop()>57){
-			$("nav").addClass('white-nav-top');
-			$(".navbar-brand img").attr("src","img/logo/logo-dark.png");
-		}else{
-			$("nav").removeClass('white-nav-top');
-			$(".navbar-brand img").attr("src","img/logo/logo.png");
-		}
-	});
+		Scroll();
+	})
+
+	function Scroll(){
+		$(window).scroll(function(){
+			if($(window).scrollTop()>57){
+				$("nav").addClass('white-nav-top');
+				$(".navbar-brand img").attr("src","img/logo/logo-dark.png");
+			}else{
+				$("nav").removeClass('white-nav-top');
+				$(".navbar-brand img").attr("src","img/logo/logo.png");
+			}
+		});
+	}
 });

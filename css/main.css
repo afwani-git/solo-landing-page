@@ -6,6 +6,13 @@
 	white:#fff;
 	black:#000;*/
 
+.active {
+	background: transparent!important;
+}
+
+.active a{
+ color: #f4c613!important;
+}
 #preloader{
 	position: fixed;
 	background: #fff;
@@ -52,6 +59,7 @@ p{
 section{
 	background: white;
 	overflow: hidden;
+	width: 100%;
 }
 
 /*
@@ -316,10 +324,8 @@ members
 	padding:0;
 	margin: 0 auto;
 }
-
 .social-list li{
 	display: inline-block;
-
 }
 .social-list li a{
 	color: white;
