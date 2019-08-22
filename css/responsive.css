@@ -97,7 +97,140 @@
 	.pricing-table .price p {
     	font-size: 11px;
 	}
+	/*blog*/
+	.latest-blog h4 {
+	    font-size: 18px;
+	    margin-bottom: 12px;
+	}
+	.latest-blog > p {
+	    margin-bottom: 17px;
+	    font-size: 11px;
+	}
+	.right-side {
+    	margin: 20px;
+	}
 }
 @media (max-width: 767px){
+	/*content*/
+	.content-box-lg{
+		padding: 90px 40px;
+	}
+	.content-box-md{
+		padding:70px 0;
+	}
+	/*btn*/
+	.btn-general {
+		font-size: 12px;
+		margin: 0px 5px;
+		padding: 11px 37px!important;
+	}
+	/*vertical heading*/
+	.vertical-heading h5 {
+	    font-size: 13px;
+	    display: inline-block;
+	    word-spacing: 4px;
+	    left: -44px;
+	}
 
+	/*home section*/
+	#home-heading h1 {
+    	font-size: 39px;
+	}
+	#home-text p {
+	    font-size: 12px;
+	    line-height: normal;
+	}
+	/*about*/
+	#about-left {
+    	margin-bottom: 20px;
+	}
+	.about-intem {
+	    padding: 60px 22px;
+	    margin: 20px;
+	}
+	/*team*/
+	.team-member-overlay {
+	    transform: translateY(400px);
+	}
+	.skill h4 {
+    	line-height: 33px;
+	}
+	/*statment*/
+	#tech-statment h3 {
+	    font-size: 18px;
+	    line-height: 22px;
+	}
+	/*service*/
+	.services h3 {
+	    font-size: 20px;
+	}
+	.services p {
+	    font-size: 12px;
+	    color: rgba(0,0,0,.7);
+	}
+	.services .icon {
+    	font-size: 40px;
+	}
+	/*service 2*/
+	.se.r-tabs {
+	    /*margin: 0 20px;*/
+	    background: white;
+	    border-radius:6px;
+	    box-shadow: 0 0 20px -10px rgba(0,0,0,.7);
+	}
+	.r-tabs .r-tabs-accordion-title {
+    	text-align: center;
+    	font-size: 19px;
+    	margin: 10px 0;
+	}
+	.tab-bg {
+	    padding: 20px 20px 20px 0;
+	    text-align: center;
+	}
+	/*porofolio*/
+	#portofolio .vertical-heading {
+    	margin-bottom: 20px;
+	}
+	#portofolio .isotope-filter {
+	    padding: 9px;
+	    flex-wrap: wrap;
+	    display: flex;
+	    justify-content: space-between;
+	}
+	#portofolio .isotope-filter span {
+    	font-size: 11px;
+	}
+	/*testimonial*/
+	.testimonial {
+	    padding: 10px 20px;
+	}
+	.testimonial h3 {
+    	font-size: 20px;
+	}
+	.testimonial p {
+	    font-size: 12px;
+	}
+	.author-des p {
+    	font-size: 14px;
+	}
+	.testimonial .author img {
+    	width: 80px;
+	}
+	#testimonial-slinder {
+    	top: 0;
+	}
+	/*pricing*/
+	.pricing-table {
+	    padding: 32px 23px;
+	    transition: transform .4s ease, background .5s .1s linear;
+	    margin-bottom: 30px;
+	}
+	/*client*/
+	#clients .owl-theme .owl-nav {
+	    margin-top: 30px;
+	}
+	/*blog*/
+	.latest-blog {
+    	margin: 20px 0;
+	}
 }

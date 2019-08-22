@@ -90,7 +90,15 @@ $(function(){
 		autoplayHoverPause:true,
 		nav:true,
 		dots:false,
-		navText:['<i class=" ico fa fa-angle-left"></i>','<i class=" ico fa fa-angle-right"></i">']
+		navText:['<i class=" ico fa fa-angle-left"></i>','<i class=" ico fa fa-angle-right"></i">'],
+		responsive:{
+			0:{
+				items:1
+			},
+			480:{
+				item:2
+			}
+		}
 	});
 })
 $(function(){
