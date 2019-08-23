@@ -137,5 +137,13 @@ $(function(){
 	});
 })
 $(function(){
-	new WOW().init();
+	var wow = new WOW(
+  {
+    boxClass:     'wow',
+    animateClass: 'animated',
+    offset:       40,
+  }
+);
+wow.init();
 })
+//bottom-in-view
