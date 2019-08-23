@@ -120,3 +120,22 @@ $(function(){
 		});
 	}
 });
+$(function(){
+	$("#mobile-nav").hide();
+	$("#mobile-nav-open-tab").click(function(){
+		$("#mobile-nav").slideDown();
+	});
+	$("#mobile-nav-close,#mobile-nav  .nav a").click(function(){
+		$("mobile-nav-content").addClass("anim");
+		$("#mobile-nav").slideUp();
+	});
+});
+$(function(){
+	$('.counter').counterUp({
+		delay: 10,
+    	time: 1000
+	});
+})
+$(function(){
+	new WOW().init();
+})
