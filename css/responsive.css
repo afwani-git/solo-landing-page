@@ -1,5 +1,4 @@
 @media (min-width: 1200px) and (max-width: 1299px){
-
 }
 /*land tab and med desktop*/
 @media (min-width: 992px) and (max-width: 1199px){
@@ -20,6 +19,9 @@
 }
 /*port tab and small desktop*/
 @media (min-width: 768px) and (max-width: 991px){
+	#mobile-nav-open-tab{
+		display: none;
+	}
 	/*nav*/
 	.nav > li > a {
 	    position: relative;
@@ -232,5 +234,42 @@
 	/*blog*/
 	.latest-blog {
     	margin: 20px 0;
+	}
+	/*stat*/
+	.stat-intem{
+	    padding: 10px 20px;
+		margin-bottom: 20px;
+	}
+	.stat-intem>i {
+	    font-size: 30px;
+	}
+	h3.counter {
+    	font-size: 35px;
+	}
+	.stat-intem p {
+    	font-size: 14px;
+    	margin-top: 10px;
+	}
+	/*contac*/
+	.office {
+	    text-align: center;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	}
+	.left-side ul.social-list{
+		display: flex;
+		justify-content: center;
+	}
+	.right-side {
+	    padding: 20px 23px;
+	    margin-top: 20px;
+	}
+	.navbar-header{
+		position: relative;
+	}
+	#mobile-nav-open-tab{
+		display: block;
 	}
 }
