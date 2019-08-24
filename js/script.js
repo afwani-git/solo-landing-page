@@ -141,9 +141,8 @@ $(function(){
   {
     boxClass:     'wow',
     animateClass: 'animated',
-    offset:       40,
+    offset:       60,
   }
 );
 wow.init();
-})
-//bottom-in-view
+});
