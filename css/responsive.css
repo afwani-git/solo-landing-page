@@ -173,6 +173,9 @@
 	.services .icon {
     	font-size: 40px;
 	}
+	#services .se .img-responsive{
+		margin:0 auto;
+	}
 	/*service 2*/
 	.se.r-tabs {
 	    /*margin: 0 20px;*/
