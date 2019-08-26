@@ -1089,41 +1089,50 @@ footer span {
 .white-nav-top .site-nav-wrapper ul.navbar-nav li a:hover {
     color: #f4c613
 }
-#mobile-nav-open-tab{
+
+#mobile-nav-open-tab {
     color: #f4c613;
-    font-size:30px;
+    font-size: 30px;
     position: absolute;
-    right: 0;top: 4px;z-index: 2;
+    right: 0;
+    top: 4px;
+    z-index: 2;
     cursor: pointer;
     display: none;
 }
-#mobile-nav{
+
+#mobile-nav {
     background: white;
     position: fixed;
     width: 100%;
     height: 100vh;
-    top:0;left: 0;
+    top: 0;
+    left: 0;
     z-index: 4;
-    padding:20px;
+    padding: 20px;
     text-align: center;
 }
-#mobile-nav-close{
+
+#mobile-nav-close {
     font-size: 35px;
     position: absolute;
     right: 30px;
     top: 6px;
 }
-.mobile-nav-content{
+
+.mobile-nav-content {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     width: 100%;
 }
-.nav{
+
+.nav {
     display: inline-block;
     font-size: 25px;
 }
-.nav a{
+
+.nav a {
     color: #f4c613;
 }
